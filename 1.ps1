@@ -1,4 +1,6 @@
-$output = "$env:USERPROFILE\Desktop\wifi_passwords.txt"
+#$output = "$env:USERPROFILE\Desktop\wifi_passwords.txt"
+
+$output = "$env:TEMP\wifi_passwords.txt"
 
 # Obtener perfiles WiFi
 $profiles = netsh wlan show profiles |
